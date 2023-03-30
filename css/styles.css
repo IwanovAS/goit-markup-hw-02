@@ -7,6 +7,11 @@
     --header-logo-color: #2e2f42;
 }
 
+body {
+    font-family: var(--primary-font);
+    color: #434455;
+    background-color: var(--background-color)
+}
 
 .list {
     list-style: none;
@@ -16,11 +21,7 @@
     text-decoration: none;
 }
 
-body {
-    font-family: var(--primary-font);
-    color: #434455;
-    background-color: var(--background-color)
-}
+
 
 
 
@@ -107,7 +108,7 @@ body {
 }
 
 .hero-button {
-    font-family: "Roboto", sans-serif;
+    font-family: var(--primary-font);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -243,6 +244,7 @@ body {
 
 /* Filters */
 .button-filter {
+    font-family: var(--primary-font);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
