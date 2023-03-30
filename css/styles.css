@@ -4,6 +4,7 @@
     --secondary-font: 'Raleway',
         sans-serif;
     --background-color: #FFFFFF;
+    --header-logo-color: #2e2f42;
 }
 
 
@@ -33,7 +34,7 @@ body {
     padding: 0px;
 }
 
-.web {
+.logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -54,7 +55,7 @@ body {
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2E2F42;
+    color: var(--header-logo-color)
 }
 
 /* Menu Nav */
@@ -72,6 +73,10 @@ body {
 }
 
 /* Address */
+.address {
+    font-style: normal;
+}
+
 .email {
     font-style: normal;
     font-weight: 400;
@@ -81,6 +86,11 @@ body {
     color: #434455;
 }
 
+.email:hover,
+.email:focus {
+    color: #404bbf;
+}
+
 .phone-number {
     font-style: normal;
     font-weight: 400;
@@ -88,6 +98,11 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+
+.phone-number:hover,
+.phone-number:focus {
+    color: #404bbf;
 }
 
 /* Hero */
@@ -206,7 +221,7 @@ body {
     background: #2E2F42;
 }
 
-.web-footer {
+.logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
